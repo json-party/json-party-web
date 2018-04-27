@@ -1,0 +1,44 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background: #eee
+    padding: 50px
+    font-family: Monaco, monospace
+    font-size: 15px
+
+textarea, button, pre
+    appearance: none
+    border: none
+    font: inherit
+
+textarea
+    border: none
+    width: 100%
+    display: block
+    padding: 25px
+    min-height: 100px
+
+button
+    font-weight: bold
+    font-size: 1.25em
+    display: block
+    width: 100%
+    padding: 25px
+    color: #fff
+    background: #e60
+
+    &:disabled
+        background: color(#e60 alpha(80%))
+
+    &:hover
+        background: color(#e60 shade(10%))
+
+pre
+    margin-top: 50px
+    padding: 25px
+    background: #333
+    color: #fff
+
